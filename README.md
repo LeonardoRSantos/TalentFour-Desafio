@@ -63,7 +63,7 @@ O sistema de frontend utiliza as seguintes tecnologias para criar uma aplicaçã
 
 1. Clone o repositório no Github.
 - ```Java 
-    git clone https://simplifysoft-it@dev.azure.com/simplifysoft-it/simplify/_git/simplify-frontend
+    git clone https://github.com/LeonardoRSantos/TalentFour-Desafio.git
     ``` 
 2. Importar o projeto no ambiente de desenvolvimento utilizando o intelij.
 
