@@ -1,0 +1,11 @@
+app:
+  allowedOrigins: "*"
+
+security:
+  password:
+    cust-factor: ${SEC_CUST_FACTOR_PASSWORD:12}
+  jwt:
+    secret-key: ${SEC_SECRET_JWT_KEY:XSkvDYPC9E1c-dsVHWd6TPTYzwvzS25f56qttbsBAVTX6PgE4cY-dAS1lMH6fxIbRcK4p-4G12snvbGSv2G-ktjNswtte0SVgYB7RH8N1SyJSrX0qr-jcqPKKWEn2McJlU-0JyvNka0_vteRZkOLuC28r2eMqFuCtzpcGbfTC7GEr2GLyIKnB4O-lUj-ihhcqyG05VX2wG26G1bI4mdHdOUtfJeaGwPF3NhQqZWNOLBuMRkhjh4aaGFzjUro17VmpBagETbl-uCuYuNhIOeR2lV68_vlTs5SgmMB1QstX7oB6m_rf9cwuirbEGOGNfqShR9GeX8QUaHRsF_9CzitXrAWST3q5y9CCfJJj3foHsiIC-PppxWpM_QSdX7Gy0nmao05dK_qkMLXv7Hs8ClpmIVysRJqJfsZyYF5i2ch-BzCcX4Neg6EdxSQJz-QtLciWXoKa3h0rmGwqn1YLrpimOnSmswjCoGrPqfS43vD4eVKFpXaCC6CUWN_hnHBRkEHsJ8x5nVrX6wMHpJ1qYqX58ISisj17LHVLuEnFMc4oIzSzM8xMJsidVXSnWqFINt41NSK1uTcYN786acp_Lx63e-KQ5yyAA4SwaM1D_AVNf0z0F1GT4Tvw0UeD-mqcffQ8dn3IWtOFjwABKHTadwfPTe3AbA}
+    expiration-size: 900000 # 15 minutes
+    open-urls:
+      - /v1/security

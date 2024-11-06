@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "João Silva",
+  "email": "joao.silva@example.com",
+  "address": {
+    "id": 1,
+    "street": "Rua das Flores, 123",
+    "city": "São Paulo",
+    "state": "SP"
+  }
+}
